@@ -10,7 +10,7 @@
  
 
 <div>
- ```js
+```js
 
 import ClassicEditorBase from '@ckeditor/ckeditor5-editor-classic/src/classiceditor';
 
@@ -111,7 +111,7 @@ ClassicEditor.defaultConfig = {
 };
 
 
-	```
+```
 
 </div>
 
