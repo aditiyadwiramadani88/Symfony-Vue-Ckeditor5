@@ -8,7 +8,7 @@
 <p>cd /ckeditor5-build-classic/</p>
 <p>npm install</p>
 
- 
+ <p>Edit file src/ckeditor.js</p>
 
 
 ```js
@@ -112,4 +112,5 @@ ClassicEditor.defaultConfig = {
 };
 
 ```
+
 
