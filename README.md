@@ -6,17 +6,10 @@
 <p>rm -rf /ckeditor5-build-classic/ </p>
 <p> git clone https://github.com/ckeditor/ckeditor5-build-classic.git</p>
 <p>cd /ckeditor5-build-classic/</p>
- ``` js
+ ```js
+
  //Edit File src/ckeditor.js
-
- /**
- * @license Copyright (c) 2003-2020, CKSource - Frederico Knabben. All rights reserved.
- * For licensing, see LICENSE.md or https://ckeditor.com/legal/ckeditor-oss-license
  
- */
-
- 
-// The editor creator to use.
 import ClassicEditorBase from '@ckeditor/ckeditor5-editor-classic/src/classiceditor';
 
 import Essentials from '@ckeditor/ckeditor5-essentials/src/essentials';
