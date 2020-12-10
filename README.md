@@ -6,10 +6,8 @@
 <p>rm -rf /ckeditor5-build-classic/ </p>
 <p> git clone https://github.com/ckeditor/ckeditor5-build-classic.git</p>
 <p>cd /ckeditor5-build-classic/</p>
- ```js
+ ``` js
 
- //Edit File src/ckeditor.js
- 
 import ClassicEditorBase from '@ckeditor/ckeditor5-editor-classic/src/classiceditor';
 
 import Essentials from '@ckeditor/ckeditor5-essentials/src/essentials';
@@ -40,7 +38,6 @@ import SimpleUploadAdapter from '@ckeditor/ckeditor5-upload/src/adapters/simpleu
 
 export default class ClassicEditor extends ClassicEditorBase {}
 
-// Plugins to include in the build.
 ClassicEditor.builtinPlugins = [
 	Essentials,
 	UploadAdapter,
@@ -68,7 +65,7 @@ ClassicEditor.builtinPlugins = [
 	SimpleUploadAdapter
 ];
 
-// Editor configuration.
+
 ClassicEditor.defaultConfig = {
 	toolbar: {
 		items: [
@@ -107,13 +104,9 @@ ClassicEditor.defaultConfig = {
 		]
 	},
 
-	// This value must be kept in sync with the language defined in webpack.config.js.
-	language: 'en'
 };
 
-
- ```
-
+```
 
 
 <p>npm install</p>
