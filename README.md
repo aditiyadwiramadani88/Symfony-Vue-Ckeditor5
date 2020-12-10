@@ -114,3 +114,6 @@ ClassicEditor.defaultConfig = {
 ```
 
 
+<p>npm run build</p>
+<p>cd ../../..</p>
+<p>npm run dev</p>
