@@ -6,8 +6,12 @@
 <p>rm -rf /ckeditor5-build-classic/ </p>
 <p> git clone https://github.com/ckeditor/ckeditor5-build-classic.git</p>
 <p>cd /ckeditor5-build-classic/</p>
- ``` js
 
+ 
+
+<div>
+	```js
+	
 import ClassicEditorBase from '@ckeditor/ckeditor5-editor-classic/src/classiceditor';
 
 import Essentials from '@ckeditor/ckeditor5-essentials/src/essentials';
@@ -106,7 +110,10 @@ ClassicEditor.defaultConfig = {
 
 };
 
-```
+
+	```
+
+</div>
 
 
 <p>npm install</p>
