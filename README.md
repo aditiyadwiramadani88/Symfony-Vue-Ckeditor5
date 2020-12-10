@@ -10,8 +10,13 @@
  
 
 <div>
-	```js
-	
+	```ruby
+require 'redcarpet'
+markdown = Redcarpet.new("Hello World!")
+puts markdown.to_html
+```
+	<!-- ```js
+
 import ClassicEditorBase from '@ckeditor/ckeditor5-editor-classic/src/classiceditor';
 
 import Essentials from '@ckeditor/ckeditor5-essentials/src/essentials';
@@ -112,7 +117,7 @@ ClassicEditor.defaultConfig = {
 
 
 	```
-
+ -->
 </div>
 
 
